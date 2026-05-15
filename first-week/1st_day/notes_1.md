@@ -56,7 +56,7 @@ export default function HomeScreen() {
             left: 23, 
             bottom: 23, 
             right: 23
-          }}
+        }}
         onPress={()=> alert("Button Presses")}
         style= {
           ({pressed})=>({
