@@ -1,14 +1,14 @@
-import { StyleSheet, Text, View, KeyboardAvoidingView } from 'react-native'
+import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
-const HomeScreen = () => {
+const Homepage = () => {
   return (
-    <KeyboardAvoidingView>
-      <Text>HomeScreen</Text>
-    </KeyboardAvoidingView>
+    <View>
+      <Text>Homepage</Text>
+    </View>
   )
 }
 
-export default HomeScreen
+export default Homepage
 
 const styles = StyleSheet.create({})
