@@ -2,7 +2,7 @@ import { StyleSheet, Text, View, FlatList } from 'react-native'
 import React from 'react'
 
 
-//  flatlist - performance optimization for large lists and will render only the items that are currently visible on the screen
+//  flatlist - unlike scrollview which renders everything at once, flalist give performance optimization for large lists and will render only the items that are currently visible on the screen
 // sectionlist
 
 const USERS = [
